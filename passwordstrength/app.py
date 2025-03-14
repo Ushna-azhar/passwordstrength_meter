@@ -19,15 +19,23 @@ def check_password_strength(password):
 def main():
     st.set_page_config(page_title="Password Strength Meter", page_icon="🔐", layout="centered")
     
+    # Apply background color using Markdown and CSS
     st.markdown(
         """
         <style>
-            .main {
+            body {
                 background-color: #000000;
                 color: #FFFFFF;
             }
+            .stApp {
+                background-color: #000000;
+            }
             h1, h2, h3, h4, h5, h6, p, div, span, label {
                 color: #FFFFFF !important;
+            }
+            .stTextInput > div > div > input {
+                background-color: #222222;
+                color: #FFFFFF;
             }
         </style>
         """,
