@@ -23,7 +23,11 @@ def main():
         """
         <style>
             .main {
-                background-color: #f0f2f6;
+                background-color: #66D2CE;
+                color: #EAEAEA;
+            }
+            h1, h2, h3, h4, h5, h6, p, div, span, label {
+                color: #EAEAEA !important;
             }
         </style>
         """,
